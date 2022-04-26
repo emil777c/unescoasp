@@ -45,52 +45,103 @@ button:hover {
   /*background-color: #e5243b;*/
   background-image: url(ikon-01.png);
   background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(3) {
-  background-color: #dda63a;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(4) {
-  background-color: #4c9f38;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(5) {
-  background-color: #c5192d;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(6) {
-  background-color: #ff3a21;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(7) {
-  background-color: #26bde2;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(8) {
-  background-color: #fcc30b;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(9) {
-  background-color: #a21942;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(10) {
-  background-color: #fd6925;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(11) {
-  background-color: #dd1367;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(12) {
-  background-color: #fd9d24;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(13) {
-  background-color: #bf8b2e;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(14) {
-  background-color: #3f7e44;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(15) {
-  background-color: #0a97d9;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(16) {
-  background-color: #56c02b;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(17) {
-  background-color: #00689d;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
 #filtrering > button:nth-child(18) {
-  background-color: #19486a;
+  background-size: cover;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
 }
