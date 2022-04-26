@@ -19,7 +19,6 @@ button {
 }
 button {
   transition-duration: 0.4s;
-  width: fit-content;
 }
 
 .readmore {
