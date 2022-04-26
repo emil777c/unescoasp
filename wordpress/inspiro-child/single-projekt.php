@@ -30,28 +30,27 @@ get_header(); ?>
 			</main><!-- #main -->
 
             <script>
-        let projekter;
+        let projekt;
         const url = "https://www.emiltoft.dk/kea/09_CMS/unescoasp/wordpress/wp-json/wp/v2/projekt/"+<?php echo get_the_ID() ?>;
 
 
 
         async function hentData() {
         const respons = await fetch(url);
-        projekter = await respons.json();
-        console.log(projekter);
-       visProjekter();
+        projekt = await respons.json();
+        console.log(projekt);
+       visEnkelProjekter();
         }
 
         
 
-       function visProjekter() {
-    
+       function visEnkelProjekter() {
       // Tilføjer elementer fra Jason til template
         document.querySelector(".billede").src = projekt.billede.guid;
-        document.querySelector(".titel").textContent = projekt.titel.rendered;
-        document.querySelector(".langbeskrivelse").textContent = projekt.beskrivelse;
+        document.querySelector(".titel").textContent = projekt.title.rendered;
+        document.querySelector(".langbeskrivelse").textContent = projekt.langbeskrivelse;
         document.querySelector(".verdensmaal").textContent = projekt.verdensmaal;
-        }
+    }
 
     hentData();
     </script>
