@@ -42,7 +42,9 @@ button:hover {
   background-color: black;
 }
 #filtrering > button:nth-child(2) {
-  background-color: #e5243b;
+  /*background-color: #e5243b;*/
+  background-image: url(ikon-01.png);
+  background-size: cover;
 }
 #filtrering > button:nth-child(3) {
   background-color: #dda63a;
