@@ -27,19 +27,21 @@ get_header(); ?>
   
 </style>
     <template>
-        <article>
+        <article class="first_article">
           <img class="billede" src="" alt="" />
           <h3 class="titel"></h3>
           <p class="beskrivelse"></p>
           <p class="videolink"></p>
           <p class="verdensmaal"></p>
-          <button>Læs mere</button>
+          <button class="readmore">Læs mere</button>
         </article>
       </template>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+            <div class="button_wrapper">
             <nav id="filtrering"><button data-projekt="">Alle</button></nav>
+            </div>
             <section id="container">
             </section>
 			 </main><!-- #main --> 

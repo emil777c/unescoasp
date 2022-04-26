@@ -11,3 +11,36 @@ Updated: 2022-04-21 12:08:10
 
 */
 @import url("../inspiro/style.css");
+
+button {
+  background-color: white;
+  color: black;
+  border: 1px solid #4caf50; /* Green */
+}
+button {
+  transition-duration: 0.4s;
+  width: fit-content;
+}
+
+.readmore {
+  align-self: end;
+}
+button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+#filtrering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .first_article {
+  position: relative;
+}
+
+.titel {
+  position: absolute;
+} */
