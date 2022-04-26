@@ -18,10 +18,9 @@
 get_header(); ?>
 
 
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-        <article id=singleView>
+        <article id="singleView">
           <img class="billede" src="" alt="" />
           <h3 class="titel"></h3>
           <p class="langbeskrivelse"></p>
@@ -43,17 +42,18 @@ get_header(); ?>
        visProjekter();
         }
 
-        const singleView = document.querySelector("#singleView");
+        
 
-       function visEnkelProjekter() {
-
-
+       function visProjekter() {
+    
       // Tilføjer elementer fra Jason til template
-      singleView.querySelector(".billede").src = projekt.billede.guid;
-      singleView.querySelector(".titel").textContent = projekt.title.rendered;
-      singleView.querySelector(".beskrivelse").textContent = projekt.beskrivelse;
-      singleView.querySelector(".verdensmaal").textContent = projekt.verdensmaal;
-    }
+        document.querySelector(".billede").src = projekt.billede.guid;
+        document.querySelector(".titel").textContent = projekt.titel.rendered;
+        document.querySelector(".langbeskrivelse").textContent = projekt.beskrivelse;
+        document.querySelector(".verdensmaal").textContent = projekt.verdensmaal;
+        }
+
+    hentData();
     </script>
 
 	</div><!-- #primary -->
