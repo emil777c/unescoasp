@@ -51,7 +51,7 @@ get_header(); ?>
         let categories;
         let filterProjekt = "alle";
         const url = "https://www.emiltoft.dk/kea/09_CMS/unescoasp/wordpress/wp-json/wp/v2/projekt?per_page=100";
-        const catUrl = "https://www.emiltoft.dk/kea/09_CMS/unescoasp/wordpress/wp-json/wp/v2/categories";
+        const catUrl = "https://www.emiltoft.dk/kea/09_CMS/unescoasp/wordpress/wp-json/wp/v2/categories?per_page=100";
 
 
 

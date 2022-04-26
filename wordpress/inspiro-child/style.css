@@ -20,10 +20,6 @@ button {
 button {
   transition-duration: 0.4s;
 }
-
-.readmore {
-  align-self: end;
-}
 button:hover {
   background-color: #4caf50; /* Green */
   color: white;
@@ -35,11 +31,3 @@ button:hover {
   justify-content: center;
   flex-direction: column;
 }
-
-/* .first_article {
-  position: relative;
-}
-
-.titel {
-  position: absolute;
-} */
