@@ -67,7 +67,7 @@ get_header(); ?>
 
         function opretKnapper() {
             categories.forEach(cat => {
-                document.querySelector("#filtrering").innerHTML += `<button class="filter" data-projekt="${cat.id}">${cat.name}</button>`
+                document.querySelector("#filtrering").innerHTML += `<button class="filter" data-projekt="${cat.id}"</button>`
             })
             addEventListenersToButtons();
         }

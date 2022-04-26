@@ -12,10 +12,10 @@ Updated: 2022-04-21 12:08:10
 */
 @import url("../inspiro/style.css");
 
-.button_wrapper {
+#filtrering {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1200px, 1fr));
-  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  margin-bottom: 50px;
 }
 
 .first_article {
@@ -40,106 +40,126 @@ button:hover {
 }
 #filtrering > button:nth-child(1) {
   background-color: black;
+  margin: 5px;
+  height: 75px;
+  width: 75px;
+  text-align: center;
 }
 #filtrering > button:nth-child(2) {
   /*background-color: #e5243b;*/
-  background-image: url(ikon-01.png);
+  background-image: url(Verdensmaal/ikon-01.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(3) {
+  background-image: url(Verdensmaal/ikon-02.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(4) {
+  background-image: url(Verdensmaal/ikon-03.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(5) {
+  background-image: url(Verdensmaal/ikon-04.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(6) {
+  background-image: url(Verdensmaal/ikon-05.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(7) {
+  background-image: url(Verdensmaal/ikon-06.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(8) {
+  background-image: url(Verdensmaal/ikon-07.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(9) {
+  background-image: url(Verdensmaal/ikon-08.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(10) {
+  background-image: url(Verdensmaal/ikon-09.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(11) {
+  background-image: url(Verdensmaal/ikon-10.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(12) {
+  background-image: url(Verdensmaal/ikon-11.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(13) {
+  background-image: url(Verdensmaal/ikon-12.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(14) {
+  background-image: url(Verdensmaal/ikon-13.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(15) {
+  background-image: url(Verdensmaal/ikon-14.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(16) {
+  background-image: url(Verdensmaal/ikon-15.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(17) {
+  background-image: url(Verdensmaal/ikon-16.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
   width: 75px;
 }
 #filtrering > button:nth-child(18) {
+  background-image: url(Verdensmaal/ikon-17.png);
   background-size: cover;
   margin: 5px;
   height: 75px;
