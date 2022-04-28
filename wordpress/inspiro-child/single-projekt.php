@@ -23,14 +23,15 @@ get_header(); ?>
             
         <article id="singleView">
         <div id=grid>
+            <div class="img">
+             <img class="billede" src="" alt="" />
+            </div>
          <div class=tekst>
         <h3 class="titel"></h3>
           <p class="langbeskrivelse"></p>
             </div>
-            <div class="img">
-             <img class="billede" src="" alt="" />
             </div>
-            </div>
+
         
           <p class="videolink"></p>
           <p class="verdensmaal"></p>

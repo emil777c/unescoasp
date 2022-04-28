@@ -182,6 +182,9 @@ button:hover {
 .titel {
   font-size: 2rem;
   font-weight: bold;
+  background-color: #ce3345c2;
+  color: white;
+  padding-left: 20px;
 }
 
 #singleView {
@@ -193,8 +196,9 @@ button:hover {
   grid-column: 2/3;
 }
 
-.img {
+.billede {
   grid-column: 1/2;
+  margin-top: 37px;
 }
 
 #mainn {
