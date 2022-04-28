@@ -24,8 +24,20 @@ get_header(); ?>
     grid-template-rows: auto;
     gap: 20px;
   }
+
+
   
 </style>
+<main id="main" class="site-main" role="main">
+<section class="first_section">
+    <div class="section_wrapper">
+        <h1>Projekter inde for verdensmålene</h1>
+        <p>På siden findes projekter indsendt af danske UNESCO verdensmålsskoler. 
+            Projekterne er alle med udgangspunkt i FNs 17 verdensmål og kan bruges som inspiration og motivation
+             samt udgøre grundlaget for eksempelvis skoleprojekter, undersøgelser eller lignende.</p>
+    </div>
+
+</section>
     <template>
         <article class="first_article">
           <img class="billede" src="" alt="" />
@@ -38,12 +50,13 @@ get_header(); ?>
       </template>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+
             <div class="button_wrapper">
             <nav id="filtrering"><button data-projekt="">Alle</button></nav>
             </div>
             <section id="container">
             </section>
+            
 			 </main><!-- #main --> 
 
     <script>
