@@ -166,8 +166,22 @@ button:hover {
   width: 75px;
 }
 
+#view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.langbeskrivelse {
+  grid-column: 2/3;
+}
+
+.billede {
+  grid-column: 1/2;
+}
+
 #mainn {
-  background-image: url(blyanter.png);
+  background-image: url(splashbillede.png);
   background-size: contain;
   background-repeat: no-repeat;
 }

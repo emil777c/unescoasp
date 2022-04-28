@@ -20,10 +20,13 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+            
         <article id="singleView">
+        <h3 class="titel"></h3>
+         <div id=view>
           <img class="billede" src="" alt="" />
-          <h3 class="titel"></h3>
           <p class="langbeskrivelse"></p>
+            </div>
           <p class="videolink"></p>
           <p class="verdensmaal"></p>
         </article>
