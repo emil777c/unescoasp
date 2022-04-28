@@ -170,6 +170,7 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
+  background-color: #f6f6f7
 }
 
 .langbeskrivelse {
@@ -178,7 +179,7 @@ button:hover {
 
 .billede {
   grid-column: 1/2;
-  
+
 #main {
   background-image: url(splashbillede.png);
   background-size: contain;
