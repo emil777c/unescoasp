@@ -28,7 +28,7 @@ get_header(); ?>
 
   
 </style>
-<main id="main" class="site-main" role="main">
+<main id="mainn" class="site-main" role="main">
 <section class="first_section">
     <div class="section_wrapper">
         <h1>Projekter inde for verdensmålene</h1>

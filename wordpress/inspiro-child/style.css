@@ -166,8 +166,8 @@ button:hover {
   width: 75px;
 }
 
-#main {
-  background-image: url(splashbillede.png);
+#mainn {
+  background-image: url(blyanter.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
