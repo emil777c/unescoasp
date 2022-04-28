@@ -26,6 +26,9 @@ get_header(); ?>
             <div class="img">
              <img class="billede" src="" alt="" />
             </div>
+            <div class="img2>
+            
+          </div>
          <div class=tekst>
         <h3 class="titel"></h3>
           <p class="langbeskrivelse"></p>

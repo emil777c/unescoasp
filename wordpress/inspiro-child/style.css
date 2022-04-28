@@ -32,7 +32,17 @@ Updated: 2022-04-21 12:08:10
   background-color: black;
 }
 
+.tilbage {
+  color: white;
+  background-color: black;
+}
+
 .readmore:hover {
+  background-color: grey;
+  color: white;
+}
+
+.tilbage:hover {
   background-color: grey;
   color: white;
 }
@@ -247,4 +257,19 @@ button:hover {
 
 #colophon > div > div > span > span:nth-child(2) {
   display: none;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
