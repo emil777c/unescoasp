@@ -23,10 +23,10 @@ get_header(); ?>
             
         <article id="singleView">
         <h3 class="titel"></h3>
-         <section id=view>
+         <div id=view>
           <img class="billede" src="" alt="" />
           <p class="langbeskrivelse"></p>
-          </section>
+            </div>
           <p class="videolink"></p>
           <p class="verdensmaal"></p>
         </article>
