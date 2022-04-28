@@ -177,7 +177,7 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
-  background-color: #f6f6f7
+  background-color: #f6f6f7;
 }
 
 .langbeskrivelse {
@@ -190,9 +190,6 @@ button:hover {
 
 #mainn {
   background-image: url(blyanter.png);
-
-#main {
-  background-image: url(splashbillede.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -218,9 +215,14 @@ button:hover {
   margin-bottom: 90px;
 }
 
-body {
-}
-
 #content {
   background-color: #f6f6f7;
+}
+
+.first_article .titel {
+  background-color: #ce3345c2;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  margin-top: -8px;
 }
