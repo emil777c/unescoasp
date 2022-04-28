@@ -173,7 +173,7 @@ button:hover {
   width: 75px;
 }
 
-#view {
+#grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
@@ -185,16 +185,15 @@ button:hover {
 }
 
 #singleView {
-  background-color: #f6f6f7;
+  background-color: white;
   padding: 30px;
-  background-color: #f6f6f7;
 }
 
-.langbeskrivelse {
+.tekst {
   grid-column: 2/3;
 }
 
-.billede {
+.img {
   grid-column: 1/2;
 }
 

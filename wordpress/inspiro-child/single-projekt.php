@@ -22,11 +22,16 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
             
         <article id="singleView">
+        <div id=grid>
+         <div class=tekst>
         <h3 class="titel"></h3>
-         <div id=view>
-          <img class="billede" src="" alt="" />
           <p class="langbeskrivelse"></p>
             </div>
+            <div class="img">
+             <img class="billede" src="" alt="" />
+            </div>
+            </div>
+        
           <p class="videolink"></p>
           <p class="verdensmaal"></p>
         </article>
