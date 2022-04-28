@@ -35,6 +35,7 @@ get_header(); ?>
         
           <p class="videolink"></p>
           <p class="verdensmaal"></p>
+          <button> <a href="page-projekter.php" class="tilbage">Tilbage</button></a>
         </article>
 			</main><!-- #main -->
 
@@ -59,6 +60,7 @@ get_header(); ?>
         document.querySelector(".titel").textContent = projekt.title.rendered;
         document.querySelector(".langbeskrivelse").textContent = projekt.langbeskrivelse;
         document.querySelector(".verdensmaal").textContent = projekt.verdensmaal;
+        
     }
 
     hentData();
