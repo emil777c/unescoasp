@@ -20,6 +20,7 @@ Updated: 2022-04-21 12:08:10
 
 .first_article {
   position: relative;
+  background-color: white;
 }
 
 .readmore {
@@ -27,7 +28,13 @@ Updated: 2022-04-21 12:08:10
   bottom: 0;
   left: 0;
   margin-top: 20px;
-  color: black;
+  color: white;
+  background-color: black;
+}
+
+.readmore:hover {
+  background-color: grey;
+  color: white;
 }
 
 button {
@@ -181,7 +188,7 @@ button:hover {
 }
 
 #mainn {
-  background-image: url(splashbillede.png);
+  background-image: url(blyanter.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -201,4 +208,15 @@ button:hover {
   grid-column: 1/2;
   grid-row: 2/3;
   font-size: 1rem;
+}
+
+.beskrivelse {
+  margin-bottom: 90px;
+}
+
+body {
+}
+
+#content {
+  background-color: #f6f6f7;
 }
