@@ -223,6 +223,7 @@ button:hover {
 
 .beskrivelse {
   margin-bottom: 90px;
+  padding: 10px;
 }
 
 #content {
@@ -235,4 +236,12 @@ button:hover {
   font-size: 1rem;
   padding: 10px;
   margin-top: -8px;
+}
+
+#colophon > div > div > span > span:nth-child(1) > a {
+  display: none;
+}
+
+#colophon > div > div > span > span:nth-child(2) {
+  display: none;
 }
