@@ -177,6 +177,16 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
+}
+
+.titel {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#singleView {
+  background-color: #f6f6f7;
+  padding: 30px;
   background-color: #f6f6f7;
 }
 
