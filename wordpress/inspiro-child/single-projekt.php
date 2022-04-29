@@ -35,7 +35,7 @@ get_header(); ?>
         
           <p class="videolink"></p>
           <p class="verdensmaal"></p>
-          <button> <a href="page-projekter.php" class="tilbage">Tilbage</button></a>
+          <button class="tilbage"> <a href="https://www.emiltoft.dk/kea/09_CMS/unescoasp/wordpress/projekter/">Tilbage</button></a>
         </article>
 			</main><!-- #main -->
 

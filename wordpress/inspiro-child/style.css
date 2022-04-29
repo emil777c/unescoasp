@@ -14,8 +14,9 @@ Updated: 2022-04-21 12:08:10
 
 #filtrering {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 .first_article {
@@ -32,17 +33,7 @@ Updated: 2022-04-21 12:08:10
   background-color: black;
 }
 
-.tilbage {
-  color: white;
-  background-color: black;
-}
-
 .readmore:hover {
-  background-color: grey;
-  color: white;
-}
-
-.tilbage:hover {
   background-color: grey;
   color: white;
 }
@@ -188,7 +179,14 @@ button:hover {
   grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
+.tekst {
+  grid-column: 2/3;
+}
 
+.billede {
+  grid-column: 1/2;
+  margin-top: 37px;
+}
 .titel {
   font-size: 2rem;
   font-weight: bold;
@@ -202,27 +200,20 @@ button:hover {
   padding: 30px;
 }
 
-.tekst {
-  grid-column: 2/3;
-}
-
-.billede {
-  grid-column: 1/2;
-  margin-top: 37px;
-}
 #mainn {
   background-image: url(blyanter.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.first_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding-left: 250px;
+@media (min-width: 800px) {
+  .first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 250px;
+  }
 }
-
 .first_section h1 {
   grid-column: 1/3;
   font-size: 2.3rem;
@@ -256,19 +247,4 @@ button:hover {
 
 #colophon > div > div > span > span:nth-child(2) {
   display: none;
-}
-
-p {
-  font-family: "Raleway", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
 }

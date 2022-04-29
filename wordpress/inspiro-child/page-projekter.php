@@ -23,6 +23,7 @@ get_header(); ?>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 <style>
+    @media (min-width: 600px) {
     #container {
     /* desktop vises article i et grid med kolloner af 3 - data ligger sig under hinanden*/
     display: grid;
@@ -30,6 +31,12 @@ get_header(); ?>
     grid-template-rows: auto;
     gap: 20px;
   }
+}
+
+#container {
+    margin: 30px;
+}
+
 
 
   
@@ -82,7 +89,10 @@ get_header(); ?>
         console.log(projekter);
        visProjekter();
        opretKnapper();
+       opretTitel();
         }
+
+
 
         function opretKnapper() {
             categories.forEach(cat => {
@@ -90,6 +100,7 @@ get_header(); ?>
             })
             addEventListenersToButtons();
         }
+
 
         function addEventListenersToButtons() {
             document.querySelectorAll("#filtrering button").forEach(elm =>{
