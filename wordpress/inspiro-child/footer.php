@@ -19,7 +19,8 @@
 
 		<footer id="colophon" <?php inspiro_footer_class(); ?> role="contentinfo">
 		<div id="footer_wrapper">
-		<di class="logo"></div>
+	   <a href="https://www.facebook.com/unescodanmark"><button class="facebook"></button></a> 
+	    <a href="https://www.instagram.com/unesco_danmark/"><button class="instagram"></button></a>
 		<div class="navn">
 			<p>Poul Erik Christoffersen</p>
 		</div>

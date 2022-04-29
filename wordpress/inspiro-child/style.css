@@ -307,3 +307,43 @@ a {
     margin-right: 30px;
   }
 }
+
+/*Footer styling*/
+.facebook {
+  background-image: url(Facebook.png);
+  background-size: contain;
+  width: 5px;
+  background-color: black;
+}
+
+.instagram {
+  background-image: url(Instagram.png);
+  background-size: contain;
+  width: 5px;
+  background-color: black;
+}
+
+@media (min-width: 800px) {
+  #footer_wrapper {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    place-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 50px;
+  }
+
+  #footer_wrapper p {
+    color: white;
+  }
+}
+
+@media (max-width: 800px) {
+  #footer_wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
