@@ -12,17 +12,19 @@ Updated: 2022-04-21 12:08:10
 */
 @import url("../inspiro/style.css");
 
+/*Filtrerings knapper som blive sat i grid*/
 #filtrering {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   margin-bottom: 50px;
 }
-
+/*Artiklerne*/
 .first_article {
   position: relative;
   background-color: white;
 }
 
+/*Knappen der gør man kommer til singleview*/
 .readmore {
   position: absolute;
   bottom: 0;
@@ -31,7 +33,7 @@ Updated: 2022-04-21 12:08:10
   color: white;
   background-color: black;
 }
-
+/*Knappen som gør man kommer tilbage fra single til loopview*/
 .tilbage {
   color: white;
   background-color: black;
@@ -55,140 +57,151 @@ button:hover {
   border: 2px black;
   color: black;
 }
+
+/*Her starter vi med at sætter verdensmåls billederne ind på de forskellige filtreringsknapper*/
 #filtrering > button:nth-child(1) {
   background-color: black;
   margin: 5px;
-  height: 75px;
+  height: 100px;
   width: fit-content;
   text-align: center;
+}
+
+#filtrering > button:nth-child(1):hover {
+  background-color: grey;
+  color: white;
 }
 #filtrering > button:nth-child(2) {
   /*background-color: #e5243b;*/
   background-image: url(Verdensmaal/ikon-01.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(3) {
   background-image: url(Verdensmaal/ikon-02.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(4) {
   background-image: url(Verdensmaal/ikon-03.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(5) {
   background-image: url(Verdensmaal/ikon-04.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(6) {
   background-image: url(Verdensmaal/ikon-05.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(7) {
   background-image: url(Verdensmaal/ikon-06.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(8) {
   background-image: url(Verdensmaal/ikon-07.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(9) {
   background-image: url(Verdensmaal/ikon-08.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(10) {
   background-image: url(Verdensmaal/ikon-09.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(11) {
   background-image: url(Verdensmaal/ikon-10.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(12) {
   background-image: url(Verdensmaal/ikon-11.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(13) {
   background-image: url(Verdensmaal/ikon-12.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(14) {
   background-image: url(Verdensmaal/ikon-13.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(15) {
   background-image: url(Verdensmaal/ikon-14.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(16) {
   background-image: url(Verdensmaal/ikon-15.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(17) {
   background-image: url(Verdensmaal/ikon-16.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 #filtrering > button:nth-child(18) {
   background-image: url(Verdensmaal/ikon-17.png);
   background-size: cover;
   margin: 5px;
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
 }
 
+/*Her slutter filteringsknapperne*/
+
+/*Her er der lavet grid til singleview*/
 #grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
 
+/*Singleview titel*/
 .titel {
   font-size: 2rem;
   font-weight: bold;
@@ -210,12 +223,15 @@ button:hover {
   grid-column: 1/2;
   margin-top: 37px;
 }
+
+/*Splashbillede med blyanter på projektsiden*/
 #mainn {
   background-image: url(blyanter.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+/*Overskrit positionering i grid*/
 .first_section .section_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -238,10 +254,12 @@ button:hover {
   padding: 10px;
 }
 
+/*Farve til siden - "content" er "body"*/
 #content {
   background-color: #f6f6f7;
 }
 
+/*Overskrift styling i artiklerne*/
 .first_article .titel {
   background-color: #ce3345c2;
   color: white;
@@ -250,6 +268,7 @@ button:hover {
   margin-top: -8px;
 }
 
+/*Her er der fjernet nogle ting fra footeren*/
 #colophon > div > div > span > span:nth-child(1) > a {
   display: none;
 }
@@ -258,6 +277,7 @@ button:hover {
   display: none;
 }
 
+/*Font styling*/
 p {
   font-family: "Raleway", sans-serif;
 }
