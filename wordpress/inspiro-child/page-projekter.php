@@ -65,7 +65,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 
             <div class="button_wrapper">
-            <nav id="filtrering"><button data-projekt="">Alle</button></nav>
+            <nav id="filtrering"><button class="alle" data-projekt="">Alle</button></nav>
             </div>
             <section id="container">
             </section>
