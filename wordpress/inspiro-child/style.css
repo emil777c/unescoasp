@@ -246,6 +246,7 @@ button:hover {
   .first_section h1 {
     grid-column: 1/3;
     font-size: 2.3rem;
+    margin-top: 110px;
   }
   .first_section p {
     grid-column: 1/2;

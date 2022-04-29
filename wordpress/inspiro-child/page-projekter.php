@@ -73,6 +73,7 @@ get_header(); ?>
 			 </main><!-- #main --> 
 
     <script>
+        /*Variabler defineret*/
         let projekter;
         let categories;
         let filterProjekt = "alle";
@@ -80,7 +81,7 @@ get_header(); ?>
         const catUrl = "https://www.emiltoft.dk/kea/09_CMS/unescoasp/wordpress/wp-json/wp/v2/categories?per_page=100";
 
 
-
+/*Hent data fra Wordpress Rest API*/
         async function hentData() {
         const respons = await fetch(url);
         const catrespons = await fetch(catUrl);
@@ -93,7 +94,7 @@ get_header(); ?>
         }
 
 
-
+/*Opret filtreringsknapperne*/
         function opretKnapper() {
             categories.forEach(cat => {
                 document.querySelector("#filtrering").innerHTML += `<button class="filter" data-projekt="${cat.id}"</button>`
@@ -101,7 +102,7 @@ get_header(); ?>
             addEventListenersToButtons();
         }
 
-
+/*Gør dem klikbarer*/
         function addEventListenersToButtons() {
             document.querySelectorAll("#filtrering button").forEach(elm =>{
                 elm.addEventListener("click", filtrering);
@@ -115,12 +116,13 @@ get_header(); ?>
             visProjekter();
         }
 
+        /*Få projekterne frem*/ 
        function visProjekter() {
          const container = document.querySelector("#container");
         const template = document.querySelector("template");
         container.innerHTML = "";
 
-
+/*Filtrer projekterne*/ 
         projekter.forEach((projekt) => {
             if ( filterProjekt == "alle" || projekt.categories.includes(parseInt(filterProjekt))) {
         // Tjek hvilket verdensmål projektet har, sammenlign med aktuelt filter eller hvis filter har værdien "alle" så vis alle
