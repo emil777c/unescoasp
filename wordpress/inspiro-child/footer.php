@@ -16,16 +16,18 @@
 
 		</div><!-- #content -->
 
-		<?php get_template_part( 'template-parts/footer/footer', 'instagram-widget' ); ?>
 
 		<footer id="colophon" <?php inspiro_footer_class(); ?> role="contentinfo">
-			<div class="inner-wrap">
-				<?php
-				get_template_part( 'template-parts/footer/footer', 'widgets' );
+		<div id="footer_wrapper">
+		<di class="logo"></div>
+		<div class="navn">
+			<p>Poul Erik Christoffersen</p>
+		</div>
+		<div class="email">
+			<p>pec@ungdomsbyen.dk</p>
+		</div>
+		</div>
 
-				get_template_part( 'template-parts/footer/site', 'info' );
-				?>
-			</div><!-- .inner-wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
